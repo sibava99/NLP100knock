@@ -1,0 +1,7 @@
+f = open('popular-names.txt','r')
+l = f.read()
+l = l.replace('\t',' ')
+af = open('af.txt','w')
+af.write(l)
+f.close()
+af.close()
